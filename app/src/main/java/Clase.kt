@@ -22,6 +22,6 @@ fun main() {
     print("Por favor, ingrese el día de la semana (ej. lunes, martes, etc.): ")
     val diaSemana = readLine() ?: ""
 
-    val resultado = calcularPrecioEntrada(edad, diaSemana)
+    val resultado  = calcularPrecioEntrada(edad, diaSemana)
     println(resultado)
 }
